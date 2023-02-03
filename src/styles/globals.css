@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'main';
+	src: url('../fonts/Segoe\ UI\ Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'sub';
+	src: url('../fonts/Segoe\ UI.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+* {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+button,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+input,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-collapse: collapse;
+	line-height: inherit;
+	vertical-align: inherit;
+	font-family: inherit;
+}
+
+html,
+body,
+#root {
+	background-color: #0d1117;
+	height: 100%;
+	width: 100%;
+}
+
+input[type='file']::file-selector-button {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: 'main';
+	font-style: normal;
+	font-weight: 700;
+	height: 20px;
+	background-color: transparent;
+	color: #e5edf5;
+	border: none;
+	cursor: pointer;
+	font-size: 12px;
+	margin-left: 16%;
+}
+
+input[type='file']::file-selector-button:hover {
+	color: #fff;
+}
+
+table {
+	border: 1.5px solid rgb(149, 149, 149);
+	border-spacing: 2px;
+	border-collapse: separate;
+}
+
+tr,
+td {
+	padding: 5px 10px 5px 10px;
+	border: 1.5px solid rgb(149, 149, 149);
+	border-collapse: collapse;
+}
